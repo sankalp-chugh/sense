@@ -24,7 +24,12 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'mysite/static'),
     )
 
-
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+#    'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    'compressor.finders.CompressorFinder',
+)
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
