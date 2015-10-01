@@ -1,3 +1,5 @@
+<h3>Prerequisite</h3>
+<p>Python, pip and virtualenv should be installed before clonning this repo.</p>
 <h3>To clone this Repo follow the following steps:</h3><br>
 <ol>
   <li>Create a virtualenv by using the command <code>virtualenv .</code> inside a directory using terminal or cmd (Windows).</li>
