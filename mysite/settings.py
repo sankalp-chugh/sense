@@ -28,7 +28,7 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
-    'compressor.finders.CompressorFinder',
+#    'compressor.finders.CompressorFinder',
 )
 
 # Simplified static file serving.
@@ -56,6 +56,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'polls',
+    'sense',
 )
 
 MIDDLEWARE_CLASSES = (
